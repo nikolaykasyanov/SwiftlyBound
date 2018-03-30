@@ -48,6 +48,7 @@
 		E26245B1206E4F6900EB07DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E26245B6206E4F6900EB07DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E26245B8206E4F6900EB07DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E26245BE206E50B800EB07DF /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +84,7 @@
 				E2624595206E4D3D00EB07DF /* SwiftlyBoundTests */,
 				E26245AB206E4F6900EB07DF /* TestHost */,
 				E2624589206E4D3C00EB07DF /* Products */,
+				E26245BE206E50B800EB07DF /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
