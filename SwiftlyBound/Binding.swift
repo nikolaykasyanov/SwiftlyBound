@@ -57,10 +57,10 @@ public class Binding {
 
 private class ControlEvenSubscription: NSObject, Invalidatable {
     weak var control: UIControl?
-    let event: UIControlEvents
+    let event: UIControl.Event
     let block: (UIControl) -> Void
 
-    init(control: UIControl, event: UIControlEvents, block: @escaping (UIControl) -> Void) {
+    init(control: UIControl, event: UIControl.Event, block: @escaping (UIControl) -> Void) {
         self.control = control
         self.event = event
         self.block = block
